@@ -1,0 +1,76 @@
+body {
+    width: 98%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+.AboutWebsite {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 20px;
+}
+
+h2 {
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+p {
+    margin: 5%;
+    font-size: 20px;
+}
+
+.projectsHome {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 8%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 20px;
+}
+
+.homeInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.navSite {
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.navSite:hover {
+    box-shadow: inset 140px 0 0 0 var(--lightcolor2);
+    color: white;
+}
+
+.projectsHome:hover {
+    border-color: var(--lightcolor2);
+}
+
+.sideBarText:hover {
+    border-color: var(--lightcolor2);
+}
+
+.genres:hover {
+    color: var(--lightcolor2);
+}
+
+footer {
+    width: 100%;
+}

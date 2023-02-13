@@ -1,0 +1,89 @@
+:root {
+    --lightcolor1: #8fa1c1;
+    --lightcolor2: #637daa;
+    --darkcolor1: #4d6ca2;
+    --darkcolor2: #364e78;
+    --inputColor: #979ba2;
+    --backgroundcolor1: rgb(255, 244, 222);
+    --backgroundcolor2: #000000;
+}
+
+body {
+    background-color: var(--backgroundcolor1);
+}
+
+nav {
+    background-color: var(--lightcolor2);
+    border-radius: 0.5%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--darkcolor2);
+}
+
+.navSite {
+    color: var(--darkcolor2);
+}
+
+a {
+    color: var(--darkcolor2);
+}
+
+.searchBar input {
+    outline: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 4px;
+    border-color: var(--darkcolor2);
+    background-color: var(--backgroundcolor1);
+    color: var(--inputColor);
+
+}
+
+.searchBar input:focus {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: var(--darkcolor2);
+}
+
+.AboutWebsite {
+    background-color: var(--lightcolor1);
+    border-color: var(--darkcolor2);
+}
+
+.projectsText {
+    color: var(--darkcolor2);
+}
+
+.projectsHome {
+    background-color: var(--lightcolor1);
+    border-color: var(--darkcolor2);
+}
+
+footer {
+    background-color: var(--lightcolor2);
+    border-style: solid;
+    border-color: var(--darkcolor2);
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.sideBar {
+    background-color: var(--darkcolor1);
+}
+
+.sideBarText {
+    background-color: var(--darkcolor2);
+    color: var(--lightcolor1);
+    border-style: solid;
+    border-width: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.genres {
+    color: var(--darkcolor2);
+}
+
+.aboutText {
+    color: var(--darkcolor2);
+}
